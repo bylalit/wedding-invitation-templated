@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+}
+body{
+    background-color: #f2e1e1;
+}
+.nav{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/wedding_couple.jpg);
+    background-position: top;
+    background-size: cover;
+     background-repeat: no-repeat;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+}
+nav ul{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;  
+}
+
+nav ul li{
+    color: black;
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+nav ul li:hover{
+    background-color: rgb(158, 156, 156);
+}
+nav ul li.bl:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.nav .title{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.nav .title h5{
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 5px;
+}
+.nav .title p{
+    font-size: 14px;
+    color: white;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+.nav .title h6{
+    font-size: 18px;
+    color: white;
+}
+ .hero{
+    width: 100%;
+    padding: 0 200px;
+}
+.hero h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    opacity: 0.7;
+    font-weight: lighter;
+    padding: 30px 0;
+}
+.hero .img{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero .img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.hero .img p{
+    width: 100%;
+    padding: 30px 0;
+    font-size: 15px;
+    line-height: 18px;
+    opacity: 0.7;
+}
+.hero .img button{
+   font-size: 13px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.hero .img button:hover{
+    background-color: rgb(64, 61, 61);
+}
+
+.course{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/flowers.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.course h4{
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 30px 0;
+}
+
+.course h6{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+/* the wedding data */
+
+
+.hero #im{
+    filter: grayscale(70%);
+}
+.hero .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.hero .info .when{
+    text-align: center;
+    width: 50%;
+}
+
+.hero .info .when h5{
+    font-size: 23px;
+    font-weight: lighter;
+}
+.hero .info .when p{
+    font-size: 10px;
+    padding: 10px;
+    opacity: 0.8;
+}
+.hero .info .where{
+    text-align: center;
+    width: 50%;
+}
+
+.hero .info .where h5{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+.hero .info .where p{
+    font-size: 12px;
+    padding: 8px;
+    opacity: 0.8;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #fdd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: lighter;  
+}
+.footer p{
+    margin: 20px 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+.footer button{
+    padding: 10px 40px;
+    background-color: #f88179;
+    color: white;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 3px;
+    font-weight: lighter;
+}
+.footer button:hover{
+    background-color: rgb(142, 139, 139);
+}
+
+.web{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.web p{
+    color: white;
+    font-size: 12px;
+}
+.web p a{
+    color: white;
+}
+
+@media screen and (max-width:1000px) {
+    .hero{
+        padding: 0 180px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero{
+        padding: 0 130px;
+    }
+}
+@media screen and (max-width:600px) {
+    .hero{
+        padding: 0 80px;
+    }
+}
+@media screen and (max-width:500px) {
+    .hero{
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width:400px) {
+    .hero{
+        padding: 0 20px;
+    }
+    nav ul li{
+        padding: 7px 15px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .nav .title h5 {
+        font-size: 25px;
+    }
+    .nav .title p {
+        font-size: 11px;
+    }
+    .nav .title h6 {
+        font-size: 15px;
+    }
+    .hero h4{
+        font-size: 25px;
+        padding: 20px 0;
+    }
+
+    .course h4 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .hero .info .when p{
+        font-size: 8px;
+    }
+    .hero .info .where p{
+        font-size: 9px;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+    }
+    .footer p {
+        margin: 15px 0;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .footer button {
+        padding: 10px 30px;       
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    nav ul li{
+        padding: 5px 12px;
+    }
+}
