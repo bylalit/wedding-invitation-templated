@@ -103,11 +103,11 @@ nav ul li.bl:hover {
   width: 100%;
   padding: 30px 0;
   font-size: 18px;
-  line-height: 18px;
+  line-height: 22px;
   opacity: 0.7;
 }
 .hero .img button {
-  font-size: 13px;
+  font-size: 15px;
   background-color: black;
   color: white;
   border: none;
@@ -134,9 +134,9 @@ nav ul li.bl:hover {
 
 .course h4 {
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: lighter;
-  margin: 30px 0;
+  margin: 25px 0 10px;
 }
 
 .course h6 {
@@ -163,12 +163,13 @@ nav ul li.bl:hover {
 }
 
 .hero .info .when h5 {
-  font-size: 23px;
+  font-size: 35px;
   font-weight: lighter;
+  padding-bottom: 5px;
 }
 .hero .info .when p {
-  font-size: 10px;
-  padding: 10px;
+  font-size: 15px;
+  padding: 5px 10px;
   opacity: 0.8;
 }
 .hero .info .where {
@@ -177,14 +178,14 @@ nav ul li.bl:hover {
 }
 
 .hero .info .where h5 {
-  font-size: 23px;
-  font-weight: lighter;
-  margin-bottom: 8px;
+    font-size: 35px;
+    font-weight: lighter;
+    padding-bottom: 5px;
 }
 .hero .info .where p {
-  font-size: 12px;
-  padding: 8px;
-  opacity: 0.8;
+    font-size: 15px;
+    padding: 5px 10px;
+    opacity: 0.8;
 }
 
 .footer {
@@ -198,17 +199,17 @@ nav ul li.bl:hover {
 }
 .footer h2 {
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: lighter;
 }
 .footer p {
-  margin: 20px 0;
-  font-size: 12px;
+  margin: 5px 0 20px;
+  font-size: 13px;
   letter-spacing: 2px;
   opacity: 0.7;
 }
 .footer button {
-  padding: 10px 40px;
+  padding: 8px 30px;
   background-color: #f88179;
   color: white;
   border: none;
@@ -225,7 +226,7 @@ nav ul li.bl:hover {
 
 .web {
   width: 100%;
-  height: 90px;
+  height: 100px;
   background-color: black;
   display: flex;
   align-items: center;
@@ -233,7 +234,7 @@ nav ul li.bl:hover {
 }
 .web p {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 .web p a {
   color: white;
