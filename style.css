@@ -178,14 +178,14 @@ nav ul li.bl:hover {
 }
 
 .hero .info .where h5 {
-    font-size: 35px;
-    font-weight: lighter;
-    padding-bottom: 5px;
+  font-size: 35px;
+  font-weight: lighter;
+  padding-bottom: 5px;
 }
 .hero .info .where p {
-    font-size: 15px;
-    padding: 5px 10px;
-    opacity: 0.8;
+  font-size: 15px;
+  padding: 5px 10px;
+  opacity: 0.8;
 }
 
 .footer {
@@ -254,7 +254,7 @@ nav ul li.bl:hover {
   .course h4 {
     font-size: 45px;
     margin: 15px 0 10px;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .hero {
@@ -262,13 +262,13 @@ nav ul li.bl:hover {
   }
   .nav .title h5 {
     font-size: 45px;
-}
+  }
 }
 @media screen and (max-width: 500px) {
   .hero {
     padding: 0 50px;
   }
-  nav{
+  nav {
     display: none;
   }
   .web p {
@@ -279,25 +279,13 @@ nav ul li.bl:hover {
   .hero {
     padding: 0 20px;
   }
-    .footer button {
-        padding: 10px 20px;
-        font-size: 15px;
-    }
-  /* nav ul li {
-    padding: 7px 15px;
-  } */
+  .footer button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 360px) {
-  /* .nav .title h5 {
-    font-size: 25px;
-  }
-  .nav .title p {
-    font-size: 11px;
-  }
-  .nav .title h6 {
-    font-size: 15px;
-  } */
   .hero h4 {
     font-size: 25px;
     padding: 20px 0;
@@ -322,11 +310,4 @@ nav ul li.bl:hover {
     font-size: 10px;
     letter-spacing: 1px;
   }
-
-}
-
-@media screen and (max-width: 300px) {
-  /* nav ul li {
-    padding: 5px 12px;
-  } */
 }
